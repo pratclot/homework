@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_task_icon_padding">8dp</dimen>
+    <dimen name="item_task_date_margin">8dp</dimen>
+    <dimen name="item_task_image_size">48dp</dimen>
+    <dimen name="supportactionbar_padding_logo_title">12dp</dimen>
+    <dimen name="details_screen_horizontal_margin">16dp</dimen>
+    <dimen name="details_screen_vertical_margin">24dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "ch.protonmail.android.protonmailtest";
+option java_multiple_files = true;
+
+message Settings {
+  string task_id = 1;
+  map<string, bool> task_entry = 2;
+}

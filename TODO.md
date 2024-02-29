@@ -1,0 +1,23 @@
+## TODO
+
+- ~~do not pass Activity to ViewModel~~
+- ~~add alternative task fetcher~~
+- add some loading indication
+- add decryption indication
+- ~~add offline indication~~
+- ~~add mappers, and make repo depend on domain stuff~~
+- ~~decrypt network response~~
+- ~~apply Figma designs~~
+- ~~apply Figma designs to tabs~~
+- refactor item_task.xml to have a flat hierarchy
+- ~~write some tests for TaskMappper~~
+- ~~add a linter~~
+- ~~make TasksAdapter a ListAdapter~~ 
+- ~~add some packages inside :app project~~
+- tie binding usage in Fragments to View lifecycle
+- ~~make a README~~
+- fix status bar color
+- ~~try to speed up decryption~~
+- add swiperefresh
+- ~~add a boundary layer between repo and domain~~ Hilt seems to have a problem with that
+- fix ViewHolder re-use issues somehow

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/item_task">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:barrierDirection="end"
+            app:layout_constraintStart_toEndOf="@id/captionCreated" />
+
+        <TextView
+            android:id="@+id/captionCreated"
+            style="@style/body_2_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_calendar"
+            android:drawablePadding="@dimen/item_task_icon_padding"
+            android:text="Created: "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/creationDate"
+            style="@style/body_2_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_task_date_margin"
+            app:layout_constraintBaseline_toBaselineOf="@id/captionCreated"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            tools:text="Creation date" />
+
+        <TextView
+            android:id="@+id/captionDue"
+            style="@style/body_2_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_bell"
+            android:drawablePadding="@dimen/item_task_icon_padding"
+            android:text="Due: "
+            app:layout_constraintTop_toBottomOf="@id/captionCreated" />
+
+        <TextView
+            android:id="@+id/dueDate"
+            style="@style/body_2_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_task_date_margin"
+            app:layout_constraintBaseline_toBaselineOf="@id/captionDue"
+            app:layout_constraintStart_toEndOf="@id/barrier"
+            tools:text="Due date" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</merge>

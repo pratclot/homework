@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Proton Test</string>
+    <string name="all_tasks">All tasks (%1$d)</string>
+    <string name="upcoming_tasks">Upcoming tasks (%1$d)</string>
+    <string name="button_download">Download Image</string>
+    <string name="task">Task</string>
+</resources>

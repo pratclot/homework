@@ -1,0 +1,11 @@
+plugins {
+    id "buildtools.kotlinLib"
+}
+
+dependencies {
+    implementation(project(":data"))
+    implementation(project(":apiremote"))
+    implementation(project(":state"))
+    implementation(project(":apilocal"))
+    implementation(project(":domain"))
+}
